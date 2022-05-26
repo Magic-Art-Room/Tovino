@@ -448,10 +448,6 @@ async def settings(client, message):
                     'Redirect To',
                     callback_data=f'setgs#redirect_to#{settings["redirect_to"]}#{grp_id}',
                 ),
-                InlineKeyboardButton(
-                    '👤 PM' if settings["redirect_to"] == "PM" else '📄 Chat',
-                    callback_data=f'setgs#redirect_to#{settings["redirect_to"]}#{grp_id}',
-                ),
             ],
             [
                 InlineKeyboardButton(
