@@ -445,6 +445,12 @@ async def settings(client, message):
                 ),
             ],[
                 InlineKeyboardButton(
+                    'Redirect To',
+                    callback_data=f'setgs#redirect_to#{settings["redirect_to"]}#{grp_id}',
+                ),
+            ],
+            [
+                InlineKeyboardButton(
                     'Bot PM',
                     callback_data=f'setgs#botpm#{settings["botpm"]}#{grp_id}',
                 ),
