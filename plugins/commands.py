@@ -443,8 +443,7 @@ async def settings(client, message):
                     'Single' if settings["button"] else 'Double',
                     callback_data=f'setgs#button#{settings["button"]}#{grp_id}',
                 ),
-            ],
-            [
+            ],[
                 InlineKeyboardButton(
                     'Bot PM',
                     callback_data=f'setgs#botpm#{settings["botpm"]}#{grp_id}',
