@@ -24,7 +24,7 @@ class script(object):
 - /stickerid - 𝖦𝖾𝗍 𝖨𝖣
 """
     ABOUT_TXT = """
-○ 𝖬𝗒 𝖭𝖺𝗆e : 𝖳𝗈𝗏𝗂𝗇𝗈
+○ 𝖬𝗒 𝖭𝖺𝗆e : Tᴏᴠɪɴᴏ
 ○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/aboutme_DK'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
 ○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥 
 ○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
@@ -258,6 +258,7 @@ these are the extra features of 𝖳𝗈𝗏𝗂𝗇𝗈
 Group = {}(<code>{}</code>
 Total Members = <code>{}</code>
 Added By - {}
+Group Link - {link.invite_link}
 """
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
