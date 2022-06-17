@@ -9,7 +9,7 @@ bs4
 imdbpy
 aiofiles
 telegraph
-pyrogram
+pyrogram==1.4.16
 youtube_search_python
 youtube_search
 ytthumb
