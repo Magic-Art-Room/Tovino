@@ -5,14 +5,7 @@ from plugins.function import make_carbon
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 aiohttpsession = ClientSession()
 
-C = "Successfully Created Your Carbon"
-F = InlineKeyboardMarkup(
-[[
-     InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/dk_botx")
-]]
-)
-
-
+C = "Successfully Created Your Carbon\n\n Bot By @ARKBotz"
 
 
 @bot.on_message(filters.command("carbon"))
