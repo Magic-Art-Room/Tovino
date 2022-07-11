@@ -490,7 +490,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true') ] ,
+        InlineKeyboardButton('Updates', url='https://t.me/ArkBotz') ] ,
      [
         InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about_menu'),
         InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close')
